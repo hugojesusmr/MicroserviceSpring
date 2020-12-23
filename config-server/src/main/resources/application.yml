@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/hugojesusmr/MicroserviceSpring.git
-          search-paths: condig-data
+          search-paths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
